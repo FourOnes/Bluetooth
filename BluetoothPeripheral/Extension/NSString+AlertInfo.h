@@ -1,15 +1,15 @@
 //
-//  LYTPeripheral.h
+//  NSString+AlertInfo.h
 //  BluetoothCentral
-//  bluetooth peripheral device
+//
 //  Created by limingru on 15/12/3.
 //  Copyright © 2015年 limingru. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
-#import <CoreBluetooth/CoreBluetooth.h>
+#import <UIKit/UIKit.h>
 
-@interface LYTPeripheral : NSObject
-+(id)shareInstance;
--(id)init;
+@interface NSString (AlertInfo)
+
+-(void)tipsInfo;
 @end

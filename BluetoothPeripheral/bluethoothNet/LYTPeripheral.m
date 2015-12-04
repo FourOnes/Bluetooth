@@ -61,6 +61,10 @@ static LYTPeripheral *shareLYTPeripheral;
     
     NSLog(@"安装服务完成！");
 }
+-(void)notify:(NSString *)str{
+    NSData *data=[str dataUsingEncoding:NSUTF8StringEncoding];
+    [self.peripharalManager updateValue:data forCharacteristic:self.readedCharacteristic onSubscribedCentrals:nil];
+}
 #pragma mark --CBPeripheralManager 代理方法
 -(void)peripheralManagerDidUpdateState:(CBPeripheralManager *)peripheral{
     switch (peripheral.state) {
@@ -91,5 +95,19 @@ static LYTPeripheral *shareLYTPeripheral;
         [error.localizedDescription tipsInfo];
         return;
     }
+}
+//中央设备订阅特征
+-(void)peripheralManager:(CBPeripheralManager *)peripheral central:(CBCentral *)central didSubscribeToCharacteristic:(CBCharacteristic *)characteristic{
+    
+}
+-(void)peripheralManager:(CBPeripheralManager *)peripheral central:(CBCentral *)central didUnsubscribeFromCharacteristic:(CBCharacteristic *)characteristic{
+    
+}
+-(void)peripheralManager:(CBPeripheralManager *)peripheral didReceiveReadRequest:(CBATTRequest *)request{
+}
+-(void)peripheralManager:(CBPeripheralManager *)peripheral didReceiveWriteRequests:(NSArray<CBATTRequest *> *)requests{
+    NSString *s=[[NSString alloc]initWithData:requests[0].value encoding:NSUTF8StringEncoding];
+    NSLog(@"s=%@",s);
+    [self.delegate receiveData:requests[0].value];
 }
 @end

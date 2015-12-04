@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0620701F1C1134FC001A9068 /* NSString+AlertInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0620701E1C1134FC001A9068 /* NSString+AlertInfo.m */; };
+		062070251C113508001A9068 /* LYTPeripheral.m in Sources */ = {isa = PBXBuildFile; fileRef = 062070231C113508001A9068 /* LYTPeripheral.m */; };
+		0620702C1C113533001A9068 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 062070261C113533001A9068 /* MainViewController.m */; };
+		0620702D1C113533001A9068 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 062070281C113533001A9068 /* MainViewController.xib */; };
+		0620702E1C113533001A9068 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 062070291C113533001A9068 /* AppDelegate.m */; };
+		0620702F1C113533001A9068 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0620702B1C113533001A9068 /* Info.plist */; };
+		062070311C113556001A9068 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 062070301C113556001A9068 /* Assets.xcassets */; };
+		062070341C113568001A9068 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 062070331C113568001A9068 /* main.m */; };
+		0692BBB81C0D8AE2009DE431 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0692BBB71C0D8AE1009DE431 /* CoreBluetooth.framework */; };
+		0692BBBA1C0D8AE7009DE431 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0692BBB91C0D8AE7009DE431 /* CoreLocation.framework */; };
+		06A2D4291C113843008F6A5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06A2D4281C113843008F6A5C /* LaunchScreen.storyboard */; };
+		06BBB7461C1178D7000E8854 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 06BBB7451C1178D7000E8854 /* ball.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06A2D4531C1139AC008F6A5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06A2D44F1C1139AB008F6A5C /* BluetoothCentral.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06A2D4351C1139AB008F6A5C;
+			remoteInfo = BluetoothCentral;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0620701D1C1134FC001A9068 /* NSString+AlertInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+AlertInfo.h"; path = "BluetoothPeripheral/Extension/NSString+AlertInfo.h"; sourceTree = SOURCE_ROOT; };
+		0620701E1C1134FC001A9068 /* NSString+AlertInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+AlertInfo.m"; path = "BluetoothPeripheral/Extension/NSString+AlertInfo.m"; sourceTree = SOURCE_ROOT; };
+		062070221C113508001A9068 /* LYTPeripheral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LYTPeripheral.h; path = BluetoothPeripheral/bluethoothNet/LYTPeripheral.h; sourceTree = SOURCE_ROOT; };
+		062070231C113508001A9068 /* LYTPeripheral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LYTPeripheral.m; path = BluetoothPeripheral/bluethoothNet/LYTPeripheral.m; sourceTree = SOURCE_ROOT; };
+		062070261C113533001A9068 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = BluetoothPeripheral/MainViewController.m; sourceTree = SOURCE_ROOT; };
+		062070271C113533001A9068 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = BluetoothPeripheral/MainViewController.h; sourceTree = SOURCE_ROOT; };
+		062070281C113533001A9068 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainViewController.xib; path = BluetoothPeripheral/MainViewController.xib; sourceTree = SOURCE_ROOT; };
+		062070291C113533001A9068 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = BluetoothPeripheral/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		0620702A1C113533001A9068 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = BluetoothPeripheral/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		0620702B1C113533001A9068 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = BluetoothPeripheral/Info.plist; sourceTree = SOURCE_ROOT; };
+		062070301C113556001A9068 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = BluetoothPeripheral/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		062070321C113568001A9068 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = BluetoothPeripheral/PrefixHeader.pch; sourceTree = SOURCE_ROOT; };
+		062070331C113568001A9068 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = BluetoothPeripheral/main.m; sourceTree = SOURCE_ROOT; };
+		0692BB981C0D8959009DE431 /* LYTBluetoothNet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYTBluetoothNet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0692BBB71C0D8AE1009DE431 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		0692BBB91C0D8AE7009DE431 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		06A2D4281C113843008F6A5C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = BluetoothPeripheral/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		06A2D44F1C1139AB008F6A5C /* BluetoothCentral.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BluetoothCentral.xcodeproj; path = BluetoothCentral/BluetoothCentral.xcodeproj; sourceTree = "<group>"; };
+		06BBB7451C1178D7000E8854 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0692BB951C0D8959009DE431 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0692BBBA1C0D8AE7009DE431 /* CoreLocation.framework in Frameworks */,
+				0692BBB81C0D8AE2009DE431 /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		063F9FAA1C102F0700980343 /* Peripheral */ = {
+			isa = PBXGroup;
+			children = (
+				062070221C113508001A9068 /* LYTPeripheral.h */,
+				062070231C113508001A9068 /* LYTPeripheral.m */,
+			);
+			name = Peripheral;
+			sourceTree = "<group>";
+		};
+		063F9FB21C1036D700980343 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0620701D1C1134FC001A9068 /* NSString+AlertInfo.h */,
+				0620701E1C1134FC001A9068 /* NSString+AlertInfo.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		0692BB8F1C0D8959009DE431 = {
+			isa = PBXGroup;
+			children = (
+				06A2D42B1C113960008F6A5C /* BluetoothCentral */,
+				0692BBB91C0D8AE7009DE431 /* CoreLocation.framework */,
+				0692BBB71C0D8AE1009DE431 /* CoreBluetooth.framework */,
+				0692BB9A1C0D8959009DE431 /* BluetoothPeripheral */,
+				0692BB991C0D8959009DE431 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0692BB991C0D8959009DE431 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0692BB981C0D8959009DE431 /* LYTBluetoothNet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0692BB9A1C0D8959009DE431 /* BluetoothPeripheral */ = {
+			isa = PBXGroup;
+			children = (
+				06BBB7451C1178D7000E8854 /* ball.png */,
+				062070301C113556001A9068 /* Assets.xcassets */,
+				062070261C113533001A9068 /* MainViewController.m */,
+				062070271C113533001A9068 /* MainViewController.h */,
+				062070281C113533001A9068 /* MainViewController.xib */,
+				062070291C113533001A9068 /* AppDelegate.m */,
+				0620702A1C113533001A9068 /* AppDelegate.h */,
+				0620702B1C113533001A9068 /* Info.plist */,
+				063F9FB21C1036D700980343 /* Extensions */,
+				063F9FAA1C102F0700980343 /* Peripheral */,
+				0692BB9B1C0D8959009DE431 /* Supporting Files */,
+				06A2D4281C113843008F6A5C /* LaunchScreen.storyboard */,
+			);
+			name = BluetoothPeripheral;
+			path = BluetoothCentral;
+			sourceTree = "<group>";
+		};
+		0692BB9B1C0D8959009DE431 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				062070321C113568001A9068 /* PrefixHeader.pch */,
+				062070331C113568001A9068 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		06A2D42B1C113960008F6A5C /* BluetoothCentral */ = {
+			isa = PBXGroup;
+			children = (
+				06A2D44F1C1139AB008F6A5C /* BluetoothCentral.xcodeproj */,
+			);
+			name = BluetoothCentral;
+			sourceTree = "<group>";
+		};
+		06A2D4501C1139AB008F6A5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06A2D4541C1139AC008F6A5C /* BluetoothCentral.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0692BB971C0D8959009DE431 /* LYTBluetoothNet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0692BBAF1C0D8959009DE431 /* Build configuration list for PBXNativeTarget "LYTBluetoothNet" */;
+			buildPhases = (
+				0692BB941C0D8959009DE431 /* Sources */,
+				0692BB951C0D8959009DE431 /* Frameworks */,
+				0692BB961C0D8959009DE431 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYTBluetoothNet;
+			productName = BluetoothCentral;
+			productReference = 0692BB981C0D8959009DE431 /* LYTBluetoothNet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0692BB901C0D8959009DE431 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = limingru;
+				TargetAttributes = {
+					0692BB971C0D8959009DE431 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 0692BB931C0D8959009DE431 /* Build configuration list for PBXProject "LYTBluetoothNet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0692BB8F1C0D8959009DE431;
+			productRefGroup = 0692BB991C0D8959009DE431 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 06A2D4501C1139AB008F6A5C /* Products */;
+					ProjectRef = 06A2D44F1C1139AB008F6A5C /* BluetoothCentral.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				0692BB971C0D8959009DE431 /* LYTBluetoothNet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		06A2D4541C1139AC008F6A5C /* BluetoothCentral.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = BluetoothCentral.app;
+			remoteRef = 06A2D4531C1139AC008F6A5C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0692BB961C0D8959009DE431 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0620702F1C113533001A9068 /* Info.plist in Resources */,
+				06BBB7461C1178D7000E8854 /* ball.png in Resources */,
+				06A2D4291C113843008F6A5C /* LaunchScreen.storyboard in Resources */,
+				062070311C113556001A9068 /* Assets.xcassets in Resources */,
+				0620702D1C113533001A9068 /* MainViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0692BB941C0D8959009DE431 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0620702C1C113533001A9068 /* MainViewController.m in Sources */,
+				062070251C113508001A9068 /* LYTPeripheral.m in Sources */,
+				0620701F1C1134FC001A9068 /* NSString+AlertInfo.m in Sources */,
+				062070341C113568001A9068 /* main.m in Sources */,
+				0620702E1C113533001A9068 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0692BBAD1C0D8959009DE431 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0692BBAE1C0D8959009DE431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0692BBB01C0D8959009DE431 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BluetoothPeripheral/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/BluetoothPeripheral/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BluetoothCentral;
+				PRODUCT_NAME = LYTBluetoothNet;
+			};
+			name = Debug;
+		};
+		0692BBB11C0D8959009DE431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BluetoothPeripheral/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/BluetoothPeripheral/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BluetoothCentral;
+				PRODUCT_NAME = LYTBluetoothNet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0692BB931C0D8959009DE431 /* Build configuration list for PBXProject "LYTBluetoothNet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0692BBAD1C0D8959009DE431 /* Debug */,
+				0692BBAE1C0D8959009DE431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0692BBAF1C0D8959009DE431 /* Build configuration list for PBXNativeTarget "LYTBluetoothNet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0692BBB01C0D8959009DE431 /* Debug */,
+				0692BBB11C0D8959009DE431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0692BB901C0D8959009DE431 /* Project object */;
+}
